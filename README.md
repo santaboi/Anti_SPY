@@ -7,3 +7,5 @@ Details:
 When PC can't be shut down,u can activate the Anti_SPY to distinguish u from strangers who attempting to use ur PC.
 Just simply carry the Anti_SPY gadget in your pocket,when any human with face aprroaching ur PC.The warning signal
 will be passed to the gadget by bluetooth immediately,simply press the buttons to ignore or close the PC. 
+
+More details to check in the below PDF file(Mandarin version)!!!!!!
