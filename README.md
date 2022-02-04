@@ -1,11 +1,17 @@
-# Anti_SPY
-Separated into two major parts: 1.facial recognition on PC  2.remote control by ARC IoTDK
-This project is cooperated by 4 members,there got so much to improve if not for lacking of time.
-I was responsible for those hardware design,including the bluetooth connection and the warning_human features.
+# Synopsys Portable enemy detection system
+## Synopsys ARC Iotdk board
+[Synopsys board documents](https://www.synopsys.com/dw/ipdir.php?ds=arc_iot_development_kit)
+## Demonstration to the system
+![](https://i.imgur.com/cS8X8A7.png)
+[demonstration.pdf](https://github.com/santaboi/Anti_SPY/blob/main/Anti_SPY.pdf)
+## INTRO
++ pragramming on Synopsys ARC IOTdk board
++ face classification is opencv based
++ signal passing to BC using UARC
+## System flowchart
+![](https://i.imgur.com/GCE7OSt.png)
 
-Details:
-When PC can't be shut down,u can activate the Anti_SPY to distinguish u from strangers who attempting to use ur PC.
-Just simply carry the Anti_SPY gadget in your pocket,when any human with face aprroaching ur PC.The warning signal
-will be passed to the gadget by bluetooth immediately,simply press the buttons to ignore or close the PC. 
-
-More details to check in the below PDF file(Mandarin version)!!!!!!
+## Face Classification
++ known_face_encoding : contain every unenemy
+![](https://i.imgur.com/L8kieN2.png)
++ if any people's face appear in PC camerae , signal passing to ARC Iotdk board and alarm system go off
